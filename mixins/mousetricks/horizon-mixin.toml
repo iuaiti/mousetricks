@@ -10,7 +10,7 @@ priority = 100
 # (NATIVE_HOOKS_API 1). Each pinned target is free of macros and cfg, as
 # horizon-mixins requires of a HEAD target.
 [compatibility]
-horizon_revision = "fc02103818c212920fd24aa34a2b2f91ba49e56f"
+horizon_revision = "41d5649ed5b676065c2227a597e6e9ea9f370ebb"
 
 [[module]]
 id = "runtime"

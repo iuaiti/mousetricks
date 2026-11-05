@@ -152,7 +152,7 @@ Every item Mouse Tricks moves goes through `Game::menu_click`, the game's own cl
 also reads the creative tabs' order (`Creative::order_of`), the shown name (`stations::hover_name`) and whether a
 stack is a bundle (`bundle::Contents::of`).
 
-Pinned: Horizon `fc02103818c212920fd24aa34a2b2f91ba49e56f`, horizon-mixins `ddd9700b21997c95d95ac6ee5ecafe3830cf622a`,
+Pinned: Horizon `41d5649ed5b676065c2227a597e6e9ea9f370ebb`, horizon-mixins `e8cd0aa38cffef49cb2e088ef716baa107148c02`,
 game 26.3: the same pins as TreeFall 0.3.0 and Mason 0.2.0, so they build together into one game. Checked for 0.2.0:
 `horizon-mixins plan` and `apply` on that commit, alone (9 injections, 2 modules) and with TreeFall and LookAt
 (22 injections, 6 modules), no conflict. None of Mouse Tricks' pinned targets is hooked by either of them.
